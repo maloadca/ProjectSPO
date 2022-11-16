@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ff40c74d-06ff-4221-86f1-d9b79a6fc65f",
+  "alias": "SourcingProfilesWebPart",
+  "componentType": "WebPart", 
+  "version": "*",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+   "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",  
+    "group": { "default": "Advanced" },
+    "title": { "default": "Sourcing Profiles 1" },
+    "description": { "default": "sourcingProfiles description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "sourcingProfiles"      
+    }
+  }]
+}

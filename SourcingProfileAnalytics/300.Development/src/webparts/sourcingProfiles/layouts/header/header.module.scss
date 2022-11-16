@@ -1,0 +1,53 @@
+.header{
+    .boxprocess{
+        >div{
+            width: 48.5%;
+            text-align: left;
+            position: relative;
+            float: left;
+            &::before{
+                content: " ";
+                padding-right: 35px;
+                height: 35px;
+                display: inline-block;
+            }
+            >label{
+                position: absolute;
+                top: 25%;
+                font-size: 15px;
+                font-weight: 600;
+                margin-left: 8px;
+            }
+            &.dungtiendo{
+                &::before{
+                    background-color: #4DED30;
+                }
+            }
+            &.nguycocham{
+                &::before{
+                    background-color: #FDFD66;
+                }
+            }
+            &.chamtiendo{
+                &::before{
+                    background-color: #ff2828;
+                }
+            }
+            &.chuabatdau{
+                &::before{
+                    background-color: #D3D3D3;
+                }
+            }
+        }
+    }
+}
+
+.block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px black solid;
+    text-align: center;
+    color:white;
+    background-color: gray;
+  }
+  

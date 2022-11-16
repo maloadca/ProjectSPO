@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sourcing-profiles2",
+    "id": "be13c380-42a5-4cae-899d-1e96dca4e79a",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SourcingProfiles description"
+      },
+      "longDescription": {
+        "default": "SourcingProfiles description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sourcing-profiles Feature",
+        "description": "The feature that activates elements of the sourcing-profiles solution.",
+        "id": "16665670-b2e0-4e1a-bb58-6fae6d993bea",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sourcing-profiles.sppkg"
+  }
+}
